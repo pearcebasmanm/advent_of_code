@@ -3,7 +3,7 @@ use std::fs::read_to_string;
 fn main() {        
     let input = read_to_string("input.txt").unwrap();
     println!("{}", part_1(&input));
-    println!("{:?}", part_2(&input));
+    println!("{}", part_2(&input));
 }
 
 fn part_1(input: &str) -> i32 {
